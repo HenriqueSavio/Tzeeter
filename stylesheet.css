@@ -1,19 +1,66 @@
-a {
-    color: rgb(15,20,25);
+
+.navegacao > li:hover, .publicacao a:hover{
+    background-color: rgba(15,25,20,0.1);/*cor do hovr*/
+    width: max-content; /* tamanho da bordinha*/
+    border-radius: 10px; /*redondinho*/
 }
 
-li:hover {
-    background-color: rgba(15,25,20,0,1);
+a {
+    color: rgb(15,20,25);/*cor da letra*/
 }
 
 a {
-    text-decoration:none;
+    text-decoration:none;/*sem sublinhadoi*/
 }
 
 li {
-    list-style-type: none;
+    list-style-type: none; /*tira o pontinho q fica*/
 }
 
 ul {
-    padding-left: 0px;
+    padding-left: 0px;  /*encosta no canto esquerdo da tela*/
+}
+
+.estatistica span, .estatistica {
+    color: rgb(83,100,113);
+}
+.sublinhado:hover {
+    text-decoration:underline;    
+}
+
+.acao a{
+    color:rgb(83, 100, 113);
+}
+.acao [href*="Reply"]:hover, .acao [href*="Share"]:hover {
+    background-color: rgba(29, 155,240,0.1);
+    border-radius: 10px; /*redondinho*/
+    color: rgba(29, 155,240,1);
+    text-decoration:underline; 
+}
+.acao [href*="Retzeet"]:hover {
+    background-color: rgba(0, 186,124,0.1);
+    border-radius: 10px; /*redondinho*/
+    color: rgba(0, 186, 124, 1);
+    text-decoration:underline; 
+}
+.acao [href*="Like"]:hover {
+    background-color: rgba(249, 24, 128, 0.1);
+    border-radius: 10px; /*redondinho*/
+    color: rgba(249, 24, 128, 1);
+    text-decoration:underline; 
+}
+.tzeet:hover{
+    background-color:rgba(249, 24, 128, 0.1);
+    width: max-content;
+    border-radius: 10px; /*redondinho*/
+ 
+}
+
+.local {
+    display:flex;
+
+}
+
+.local li{
+    padding-right:10px;
 }
