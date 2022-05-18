@@ -9,13 +9,3 @@
 [Lista 03]()
 
 [Lista 04]()
-
-[Lista 05]()
-
-[Lista 06]()
-
-[Lista 07]()
-
-[Lista 08]()
-
-[Lista 09]()
