@@ -6,6 +6,6 @@
 
 [Lista 02](https://github.com/HenriqueSavio/Tzeeter/tree/e932750998428131818b5a4499ac6f36301ce937)
 
-[Lista 03]()
+[Lista 03](https://github.com/HenriqueSavio/Tzeeter/tree/d06432c5e1fbc5d69b75a183b752109da854dd91)
 
 [Lista 04]()
