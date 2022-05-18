@@ -1,5 +1,5 @@
 
-.navegacao > li:hover, .publicacao a:hover{
+.navegacao > li:hover, .publicacao li:hover{
     background-color: rgba(15,25,20,0.1);/*cor do hovr*/
     width: max-content; /* tamanho da bordinha*/
     border-radius: 10px; /*redondinho*/
@@ -31,28 +31,28 @@ ul {
 .acao a{
     color:rgb(83, 100, 113);
 }
-.acao [href*="Reply"]:hover, .acao [href*="Share"]:hover {
+.acao [href*="Reply"] > i:hover, .acao [href*="Share"] > i:hover {
     background-color: rgba(29, 155,240,0.1);
-    border-radius: 10px; /*redondinho*/
+}
+.acao [href*="Reply"]:hover, .acao [href*="Share"]:hover{
     color: rgba(29, 155,240,1);
-    text-decoration:underline; 
 }
-.acao [href*="Retzeet"]:hover {
+.acao [href*="Retzeet"] > i:hover {
     background-color: rgba(0, 186,124,0.1);
-    border-radius: 10px; /*redondinho*/
-    color: rgba(0, 186, 124, 1);
-    text-decoration:underline; 
 }
-.acao [href*="Like"]:hover {
+.acao [href*="Retzeet"]:hover{
+    color: rgba(0, 186, 124, 1);
+}
+.acao [href*="Like"] >i:hover {
     background-color: rgba(249, 24, 128, 0.1);
-    border-radius: 10px; /*redondinho*/
+}
+.acao [href*="Like"]:hover{
     color: rgba(249, 24, 128, 1);
-    text-decoration:underline; 
 }
 .tzeet:hover{
     background-color:rgba(249, 24, 128, 0.1);
-    width: max-content;
-    border-radius: 10px; /*redondinho*/
+    
+    
  
 }
 
@@ -63,4 +63,7 @@ ul {
 
 .local li{
     padding-right:10px;
+}
+.publicacao button{
+    color: rgb(15,20,25);
 }
