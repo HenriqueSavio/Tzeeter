@@ -1,6 +1,4 @@
-# Tzeeter
-
-[Tzeeter](https://henriquesavio.github.io/Tzeeter/)
+# [Tzeeter](https://henriquesavio.github.io/Tzeeter/)
 
 [Lista 01](https://github.com/HenriqueSavio/Tzeeter/tree/0ab3886e120cd9fd8f51a2871bcd889c42eb7229)
 
