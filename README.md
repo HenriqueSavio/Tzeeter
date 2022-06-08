@@ -6,5 +6,5 @@
 
 [Lista 03](https://github.com/HenriqueSavio/Tzeeter/tree/182580bdfac4fdc70a2e6b1391b052e7bbc267a7)
 
-[Lista 04](https://github.com/HenriqueSavio/Tzeeter/tree/5515392d62fbba46a60143637fb4d4515259efc5)
+[Lista 04](https://github.com/HenriqueSavio/Tzeeter/tree/3f04b58e7c7240087824bb8f994239cf586e8cf2)
 
