@@ -83,4 +83,17 @@ ul {
     margin-top: auto;
     margin-bottom: auto;
 }
+.azul:hover{
+    background-color: rgb(29, 155, 240);
+}
+.contadorPerigo{
+    color: rgb(255,200,0);
+    
+}
+.contadorExtrapola{
+    color: rgb(255, 0, 0);
+}
 
+textarea{
+    overflow-y:hidden;
+}
