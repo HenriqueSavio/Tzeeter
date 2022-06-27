@@ -97,3 +97,12 @@ ul {
 textarea{
     overflow-y:hidden;
 }
+
+.direita{
+    display: inline;
+    padding-right: 940;
+}
+
+.meuInscreva {
+    width: -webkit-fill-available;
+}
