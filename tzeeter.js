@@ -125,29 +125,65 @@ function blabla(textareapai){
   })()
   */
 
-    var entrar = document.getElementById('entrar');
-
-    document.addEventListener("submit", function(event){
-        var email = document.getElementById('validationEmail');
-        var senha = document.getElementById('validationSenha');
-    
-        if(email.includes("@") && email.includes(".com") && senha.ariaValueMax.length > 5){
+  //login
+    document.addEventListener("keyup", function(event){
+        var entrar = document.getElementById('entrar');
+        const email = document.getElementById('validationEmail');
+        const senha = document.getElementById('validationSenha');
+        if(senha.value.length > 5 && email.checkValidity()){
             entrar.disabled = false;
-        }
+        }else{
+            entrar.disabled = true;
+            console.log("test3");
+            }
     });
+//quando executa a pagina do singup esse codigo fica dando erro pois nao temos o id"senha", mas não interfere no outro
+   
 
-    document.addEventListener("submit", function(event){
-        const inscreve = document.getElementById('inscrever');
-        const nome = document.getElementById('validationCustomUsername');
-        const email = document.getElementById('validationCustom01');
-        const senha1 = document.getElementById('validationCustom02');
-        const senha2 = document.getElementById('validationCustom03');
-        const mes = document.getElementById('validationCustom04');
-        const dia = document.getElementById('validationCustom05');
-        const ano = document.getElementById('validationCustom06');
-        const termos = document.getElementById('termos');
-        
-        if(termos.checked){
-            inscreve.disabled = false;
-        }
+    
+    //if(email.includes("@") && email.includes(".com") && senha.ariaValueMax.length > 5){
+    //    entrar.disabled = false;
+    //}
+    const inscreve = document.getElementById('inscrever');
+    const nome = document.getElementById('validationCustomUsername');
+    const email1 = document.getElementById('validationCustom01');
+    const senha1 = document.getElementById('validationCustom02');
+    const senha2 = document.getElementById('validationCustom03')
+    const termos = document.getElementById('termos1');
+    const radio = document.querySelector('.needs-validation');
+
+
+    document.addEventListener("keyup", function(event){
+        if(nome.value.length > 2 && email1.checkValidity() && senha1.value===senha2.value && senha1.value.length > 5){
+            radio.addEventListener('input',() => {
+                if(termos.checked){
+                    inscreve.disabled = false;
+                    console.log('terrmos');
+                }else inscreve.disabled = true;
+            })}else inscreve.disabled = true;
     })
+
+    window.onload = function() {
+        var select = document.getElementById("validationCustom05");
+        var options = getDiasMes(11, 2015);
+        for (var i = 0; i < options.length; i++) {
+            var opt = options[i];
+            var el = document.createElement("option");
+            el.textContent = opt;
+            el.value = opt;
+            select.appendChild(el);
+        }
+    }
+    
+    function getDiasMes(month, year) {
+         month--;
+    
+         var date = new Date(year, month, 1);
+         var days = [];
+         while (date.getMonth() === month) {
+            days.push(date.getDate());
+            date.setDate(date.getDate() + 1);
+         }
+         return days;
+    }
+    
