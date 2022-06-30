@@ -8,6 +8,4 @@
 
 [Lista 04](https://github.com/HenriqueSavio/Tzeeter/tree/3f04b58e7c7240087824bb8f994239cf586e8cf2)
 
-[Lista 05](https://github.com/HenriqueSavio/Tzeeter/tree/a043360bda7428a7ba981565d1b650428ec73c65)
-
-
+[Lista 05](https://github.com/HenriqueSavio/Tzeeter/tree/118c2dd947c28391478cfbc7f44d21ea841604d7)
