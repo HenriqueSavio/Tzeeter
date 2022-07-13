@@ -1,11 +1,7 @@
-# [Tzeeter](https://henriquesavio.github.io/Tzeeter/)
+# Vue 3 + Vite
 
-[Lista 01](https://github.com/HenriqueSavio/Tzeeter/tree/0ab3886e120cd9fd8f51a2871bcd889c42eb7229)
+This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
 
-[Lista 02](https://github.com/HenriqueSavio/Tzeeter/tree/e932750998428131818b5a4499ac6f36301ce937)
+## Recommended IDE Setup
 
-[Lista 03](https://github.com/HenriqueSavio/Tzeeter/tree/182580bdfac4fdc70a2e6b1391b052e7bbc267a7)
-
-[Lista 04](https://github.com/HenriqueSavio/Tzeeter/tree/3f04b58e7c7240087824bb8f994239cf586e8cf2)
-
-[Lista 05](https://github.com/HenriqueSavio/Tzeeter/tree/118c2dd947c28391478cfbc7f44d21ea841604d7)
+- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
